@@ -1,0 +1,54 @@
+body{
+
+width: 100%;
+}
+
+.left{
+  width: 70%;
+  display: inline-block;
+  background-color: yellow;
+}
+
+.right{
+  width: 25%;
+  display: inline-block;
+  background-color: lightblue;
+}
+
+iframe{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 70%;
+  display: block;
+}
+
+.img{
+  margin: 4px;
+  border-radius: 3px;
+  height: 150px;
+  width: 150px;
+  display: block;
+}
+h3{
+position: absolute;
+top: 420px;
+left: 10px;
+display: inline-block;
+
+}
+.viewers{
+position: absolute;
+top: 420px;
+left: 680px;
+display: inline-block;
+color: gray;
+}
+.description{
+width: 68%; 
+position: absolute;
+top: 480px;
+left: 10px;
+display: flex;
+}
+
