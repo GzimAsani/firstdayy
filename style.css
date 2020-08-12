@@ -1,6 +1,5 @@
 body{
-
-width: 100%;
+width: 96%;
 }
 
 .left{
@@ -20,9 +19,10 @@ width: 100%;
 iframe{
   position: absolute;
   top: 70px;
-  left: 0;
-  width: 70%;
+  left: 10px;
+  width: 65%;
   display: block;
+
 }
 .img-container{
   display: inline-block;
@@ -106,13 +106,59 @@ display: inline-block;
 color: gray;
 font-size: 15px;
 }
+
+.horizontal-line{
+  color: grey;
+  width: 75%;
+  margin-left: 0;
+}
+.channel-name-and-subscribers-container{
+  display: inline-block;
+  line-height: 25px;
+  background-color: yellow;
+}
+
+.channel-img{
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#subscribers{
+  color: grey;
+}
+
+.subscribe-button-container{
+  display: inline-block;
+  width: 33%;
+  margin-left: 15%;
+}
+
+.subscribe-button{
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 36px;
+  border-style: none;
+  border-radius: 3px;
+  margin-left: 90%;
+  cursor: pointer;
+}
+
+.subscribe-button:hover{
+  line-height: 40px;
+}
 .description{
 width: 68%;
 position: absolute;
-top: 600px;
+top: 800px;
 left: 10px;
 display: flex;
 }
+
 .search-bar{
   position:absolute;
   top: 12px;
@@ -153,7 +199,6 @@ display: flex;
 }
 
 .navbar {
-
   align-items: center;
   padding:5px 15px;
   background-color: white;
@@ -163,10 +208,4 @@ display: flex;
   margin-left: 93px;
 
   font-size: 30px;
-}
-
-.horizontal-line{
-  color: grey;
-  width: 75%;
-  margin-left: 0;
 }
