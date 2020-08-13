@@ -96,7 +96,6 @@ position: absolute;
 top: 450px;
 left: 10px;
 display: inline-block;
-
 }
 .viewers{
 position: absolute;
@@ -109,21 +108,32 @@ font-size: 15px;
 
 .horizontal-line{
   color: grey;
-  width: 75%;
+  width: 74%;
   margin-left: 0;
 }
-.channel-name-and-subscribers-container{
-  display: inline-block;
-  line-height: 25px;
-  background-color: yellow;
-}
 
+.channel-details-container{
+
+}
+.channel-image-container{
+  display: inline-block;
+  margin-top: 1px;
+}
 .channel-img{
-  width: 50px;
+  width: 60px;
   border-radius: 50%;
   display: inline-block;
 }
 
+.channel-name-and-subscribers-container{
+  display: inline-block;
+  line-height: 0.2px;
+}
+
+#channel-name{
+  font-weight: bold;
+  font-size: 14px;
+}
 #subscribers{
   color: grey;
 }
@@ -131,7 +141,7 @@ font-size: 15px;
 .subscribe-button-container{
   display: inline-block;
   width: 33%;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 
 .subscribe-button{
@@ -151,12 +161,13 @@ font-size: 15px;
 .subscribe-button:hover{
   line-height: 40px;
 }
-.description{
-width: 68%;
-position: absolute;
-top: 800px;
-left: 10px;
-display: flex;
+
+.description-container{
+width: 75%;
+}
+
+.comments-details{
+  display: inline-block;
 }
 
 .search-bar{
